@@ -8,8 +8,8 @@ function App() {
     <>
       <h1 className="my-2">React + Typescript</h1>
       <hr />
+      <h2>useState</h2>
       <Counter />
-      <hr />
       <User />
       <hr />
       <TimerContainer />

@@ -7,8 +7,8 @@ const Counter = () => {
   };
 
   return (
-    <div className="my-5">
-      <h3>Counter: useState</h3>
+    <div className="my-4">
+      <h4>Counter</h4>
       <div>Value: {counter} </div>
       <button onClick={() => sum()} className="btn btn-outline-primary mt-2">
         +1

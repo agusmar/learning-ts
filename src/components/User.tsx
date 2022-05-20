@@ -20,13 +20,18 @@ export const User = () => {
   };
 
   return (
-    <div className="mt-5">
+    <div className="my-5">
       <h3>User: useState</h3>
       <button onClick={login} className="btn btn-outline-primary">
         Login
       </button>
-
-      {!user ? <pre> No hay usuario</pre> : <pre> {JSON.stringify(user)}</pre>}
+      <div className="card bg-black p-2 mt-2">
+        {!user ? (
+          <pre> No hay usuario</pre>
+        ) : (
+          <pre> {JSON.stringify(user)}</pre>
+        )}
+      </div>
     </div>
   );
 };
